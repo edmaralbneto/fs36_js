@@ -6,23 +6,35 @@
     3 - Dividir a soma pela quantidade
 */
 
-let n1 = 100;
-let n2 = 900;
-
 /*let soma = (n1) + (n2);
 let media = soma / 2;
 
 console.log(media)*/
 
-function soma() {
-    console.log(n1+n2)
+// function soma(n1, n2) {
+//    return n1+n2
+// }
+
+// soma ()
+
+// function media() {
+//     console.log(soma() / 2)
+// }
+
+// media()
+
+/*
+Objetivo: Calcular a média de quaisquer 2 números
+
+*/
+
+function soma(n1, n2) {
     return n1+n2
+ }
+
+function media2numeros(n1, n2) {
+    let resultado = soma(n1, n2) / 2;
+    return resultado;
 }
 
-soma ()
-
-function media() {
-    console.log(soma() / 2)
-}
-
-media()
+console.log(media2numeros(214965, 879521))
