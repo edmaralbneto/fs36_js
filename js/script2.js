@@ -1,4 +1,4 @@
-/*
+/* 
     Objetivo: Calcular a média de 2 números
 
     1 - Pegar os dois números
@@ -6,35 +6,27 @@
     3 - Dividir a soma pela quantidade
 */
 
-/*let soma = (n1) + (n2);
-let media = soma / 2;
 
-console.log(media)*/
 
-// function soma(n1, n2) {
-//    return n1+n2
-// }
 
-// soma ()
+function media() {
+    console.log(soma() / 2)
+}
 
-// function media() {
-//     console.log(soma() / 2)
-// }
+//media()
 
-// media()
-
-/*
+/* 
 Objetivo: Calcular a média de quaisquer 2 números
-
 */
 
 function soma(n1, n2) {
     return n1+n2
- }
+}
 
 function media2numeros(n1, n2) {
-    let resultado = soma(n1, n2) / 2;
+    let resultado = soma(n1, n2) /2
     return resultado;
 }
 
-console.log(media2numeros(214965, 879521))
+console.log(media2numeros(214965, 879521));
+
